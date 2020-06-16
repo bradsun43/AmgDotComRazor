@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Leader in Home and Commercial Mobility products</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.custom.min.css" />*@
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.custom.css" />
+
+
+</head>
+<body>
+    <header>
+           <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-0 d-flex flex-column" id="navBar">
+
+
+            <!-- TOP NAV-->
+            <div class="w-100 bg-primary py-2 d-none d-lg-block" id="topNav">
+                <div class="container w-100 d-flex flex-row justify-content-between">
+
+                    <div>
+                        <a href="tel: 18007872101" class="mr-3"><i class="fas fa-phone-square-alt mr-1"></i> 1 (+855) 787 2101</a>
+                        <a href="mailto: sales@ameriglide.com"><i class="fas fa-mail-bulk mr-1"></i> sales@ameriglide.com</a>
+                    </div>
+                    <div>
+                        <a href="#" class="mr-3"><i class="fas fa-store-alt mr-1"></i> Store Locator</a>
+                        <a href="#" class="mr-3"><i class="fas fa-search-dollar mr-1"></i> Best Price Guarantee</a>
+                        <a href="#" class="mr-3"><i class="fas fa-credit-card mr-1"></i> Payment</a>
+                        <a href="#" class="mr-3"><i class="fas fa-shipping-fast mr-1"></i> Delivery</a>
+                        <a href="#" class="mr-3"><i class="fas fa-user-circle mr-1"></i> Dealer Portal</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MIDDLE NAV -->
+            <div class="container w-100 d-flex flex-row justify-content-between py-lg-2" id=middleNav>
+                <a class="navbar-brand pl-3" href="/">
+                    <img src="/images/logos/logo-amg.png" class="logo-mobile" width="180" height="auto" alt="">
+                    <img src="/images/logos/logo-amg-slogan.png" class="logo-desktop d.none .d-lg-block .d-xl-block" width="280" height="auto" alt="">
+                </a>
+                <form class="form-inline d-none d-lg-flex" id="navSearch">
+                    <input class="form-control mr-sm-2 rounded-left w-100" type="search" placeholder="Search products, collections, ..." aria-label="Search">
+                    <button class="btn btn-danger my-2 my-sm-0 rounded-right-5" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div>
+                    <a href="/my-cart" class="mr-3 d-none d-lg-block"><i class="far fa-shopping-cart mr-1"></i> My Cart</a>
+                </div>
+
+                <!-- MOBILE NAV -->
+                <button class="navbar-toggler border-0 py-3 bg-primary rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="container d-flex align-items-center">
+                        <span class="font-weight-bold mr-2 text-secondary"> MENU </span>
+                        <span><i class="fas fa-bars" style="color:#F9F9F9; font-size:22px;"></i></span>
+                    </div>
+                </button>
+
+
+            </div>
+
+            <hr class="solid-line w-100 m-0" />
+
+
+            <!-- BOTTOM NAV -->
+            <div class="container w-100 d-flex flex-row justify-content-between d-none d-lg-block" id="botNav">
+                <div class="dropdown show d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="dropdown">
+                                <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-danger py-2 rounded-0" data-target="#" href="/page.html">
+                                    <i class="fas fa-bars mr-2"></i>ALL PRODUCTS <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu multi-level border" role="menu" aria-labelledby="dropdownMenu">
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#" class="dropdown-item">Stair lifts</a>
+                                        <ul class="dropdown-menu shadow-sm p-0 mb-5 bg-white rounded">
+                                            <li><a tabindex="-1" href="#" class="dropdown-item">Straight Stairlift</a></li>
+                                            <li><a tabindex="-1" href="#" class="dropdown-item">Curved Stairlift</a></li>
+                                            <li><a tabindex="-1" href="#" class="dropdown-item">Outdoor Stairlift</a></li>
+                                            @*<li class="dropdown-submenu">
+                                                <a href="#">Even More..</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">3rd level</a></li>
+                                                    <li><a href="#">3rd level</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Second level</a></li>
+                                            <li><a href="#">Second level</a></li>*@
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#" class="dropdown-item">Vertical Platform Lift</a>
+                                        <ul class="dropdown-menu shadow-sm p-0 mb-5 bg-white rounded">
+                                            <li><a tabindex="-1" href="#" class="dropdown-item">Residential</a></li>
+                                            <li><a tabindex="-1" href="#" class="dropdown-item">Commercial</a></li>
+                                            <li><a tabindex="-1" href="#" class="dropdown-item">Porch Lifts</a></li>
+                                            @*<li class="dropdown-submenu">
+                                                <a href="#">Even More..</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">3rd level</a></li>
+                                                    <li><a href="#">3rd level</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Second level</a></li>
+                                            <li><a href="#">Second level</a></li>*@
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer" class="pb-5">
+
+        <div class="bg-primary row text-md-left mt-3 pb-5 pt-2 px-3">
+
+            <!-- Grid column 2 -->
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 pb-10">
+                <h6 class="text-white text-uppercase mb-3">PRODUCTS</h6>
+                <p class="text-white">
+                    <a href="/new-pp-template.html">stair lifts</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">vertical platform lifts</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">elevators</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">wheelchair vehicles</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">bath lifts</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">dumbwaiters</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">inclined platforms</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">mobility scooters</a>
+                </p>
+            </div>
+
+
+            <!-- Grid column 2 -->
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 pb-10">
+                <h6 class="text-white text-uppercase mb-3">SERVICES</h6>
+                <p class="text-white">
+                    <a href="/new-pp-template.html">about us</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">testimonials</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">FAQs</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">return policy</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">delivery</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">terms and conditions</a>
+                </p>
+            </div>
+
+            <!-- Grid column 3 -->
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-white text-uppercase mb-3">CONTACT</h6>
+                <p class="text-white">
+                    <a href="/new-pp-template.html">contact us</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">ag store locator</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">authorized ameriglide contractors</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">pay by check</a>
+                </p>
+                <p>
+                    <a href="/new-pp-template.html">privacy policy</a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

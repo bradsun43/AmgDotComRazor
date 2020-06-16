@@ -1,0 +1,67 @@
+﻿@page
+@model AmgDotCom_Razer.Pages.Index1Model
+@{
+    ViewData["Title"] = "My Cart";
+}
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title id="site_name">AmeriGlide | Leader in Home and Commercial Mobility products</title>
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+    <!-- BREADCRUMBS -->
+    <nav aria-label="breadcrumb">
+        <ol class="container breadcrumb bg-white">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Straight Stairlifts</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Horizon Plus</li>
+        </ol>
+    </nav>
+
+    <!-- Cart Header -->
+
+    <div class="container">
+        <h1>My Carts</h1>
+    </div>
+
+    <section class="section d-md-flex flex-row bg-secondary">
+        <div class="container col-md-7 p-3 my-4 d-md-flex flex-row justify-content-between bg-white w-70">
+            <img src="/images/horizon-standard.jpg" class="img-fluid w-25"/>
+            <div class="ml-5">
+                <span><strong>AmeriGlide</strong> - Horizon Plus - Straight Stair Lift - Power Swivel</span>
+                <div >
+                    <div class="qty mt-2 bg-white">
+                        <span class="minus far fa-minus-circle btn"></span>
+                        <input type="number" class="count" name="qty" value="1">
+                        <span class="plus far fa-plus-circle btn"></span>
+
+                    </div>
+                    <span class="fas fa-trash-alt mr-2">REMOVE</span>
+                </div>
+            </div>
+            
+            <div class="d-inline" id="productInfo">
+                <div class="sale mr-2">Save $200.00</div>
+                <p class="price">$1,599.00</p>
+            </div>
+        </div>
+        <div class="container col-md-4 p-3 m-0 bg-white">
+            <h1>Order Summary</h1>
+            <div class="w-100">
+                <span class="justify-content-between w-100">Product Subtotal</span>
+                <span>1,599.00</span>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
