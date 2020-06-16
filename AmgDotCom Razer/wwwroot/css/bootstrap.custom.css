@@ -7926,6 +7926,21 @@ div#landingInfo {
 div#landingInfo .fa-check-square {
   color: #47a447; }
 
+.sl-item {
+  height: 500px;
+  background-image: url(/images/landing/sl3.jpg);
+  background-size: cover; }
+
+.lula-item {
+  height: 500px;
+  background-image: url(/images/landing/lula.jpg);
+  background-size: cover; }
+
+.vpl-item {
+  height: 500px;
+  background-image: url(/images/landing/vpl.jpg);
+  background-size: cover; }
+
 div#productConfig .form-control {
   height: calc(1em + 1.50rem + 2px);
   padding: 0.50rem 0.75rem;

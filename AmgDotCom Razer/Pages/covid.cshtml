@@ -1,0 +1,55 @@
+﻿@page
+@model AmgDotCom_Razer.Pages.covidModel
+@{
+    ViewData["Title"] = "COVID-19";
+}
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title id="site_name">AmeriGlide | Leader in Home and Commercial Mobility products</title>
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <div class="row py-4">
+        <div class="col-3">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-first-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Curbside Delivery</a>
+                <a class="list-group-item list-group-item-action" id="list-second-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Social Distancing</a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-first-list">
+                    <img src="images/landing/delivery.jpg" class="mb-2" />
+                    <p>
+                        In accordance with public health authorities' recommendations, we have implemented decisive social distancing measures to keep a 2-metre distance between each of our associates and customers.
+
+                        Signs reminding everyone to follow adequate social distancing and safety measures are posted at stores' entrances, checkout lanes, registers, sales/service and return desks, as well as in aisles.
+                        We are limiting the number of customers allowed inside our stores at the same time.
+                        We installed floor markers to assist customers in evaluating adequate distancing, as well as plexiglass shields over our checkout counters and other high-interaction areas such as customer service and Pro counters.
+                        Overhead announcements are broadcasted to remind our customers and associates of the importance of social distancing.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-second-list">
+                    <img src="images/landing/sd.jpg" class="mb-2" />
+                    <p>
+                        To minimize contact between associates and customers, we temporarily adapted our processes for delivery and store pickups.
+
+                        We instituted free parcel shipping for all products identified as eligible for parcel delivery (Purolator or Canada Post) on lowes.ca (subject to usual conditions) to encourage customers to shop and order online.
+                        We now offer a contact-free home delivery experience for items that are not eligible for parcel delivery, such as appliances and patio sets. While deliveries still occur as scheduled, products are now being delivered to the first covered area of customers' homes, garage or outside if applicable to the product type. Social distancing is used during the delivery process to protect our customers and delivery teams. Temporary, alternate protocols have been put in place to forgo the need for customers' signatures.
+                        We now offer curbside pickup for online orders so that customers can leverage our Click & Collect option without having to enter our stores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

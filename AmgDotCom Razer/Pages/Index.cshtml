@@ -17,22 +17,55 @@
 </head>
 
 <body>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner" height="500px">
+            <a href="/horizon_stairlift" alt="Horizon Stair Lift" class="carousel-item active sl-item"></a>
+            <a href="#" alt="Horizon Stair Lift" class="carousel-item lula-item"></a>
+            <a href="#" alt="Horizon Stair Lift" class="carousel-item vpl-item"></a>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
     <div class="container p-2">
-        <div class="d-flex flex-row w-100 justify-content-center py-2 border-bottom" id="landingInfo">
+        <div class="d-md-flex flex-row w-100 justify-content-center py-2 border-bottom" id="landingInfo">
             <div class="col-md-4 text-uppercase text-center">
-                <i class="fas fa-check-square mr-3"></i>Curbside Pickup Available
+                <i class="fas fa-check-square mr-3 align-middle"></i>Curbside Pickup Available
             </div>
-            <div class="col-md-4 text-uppercase  text-center">
-                <i class="fas fa-check-square mr-3"></i>Price Match Guarantee
+            <div class="col-md-4 text-uppercase text-center">
+                <i class="fas fa-check-square mr-3 align-middle"></i>Price Match Guarantee
             </div>
-            <div class="col-md-4 text-uppercase  text-center">
-                <i class="fas fa-check-square mr-3"></i>Our Covid-19 Response
+            <div class="col-md-4 text-uppercase text-center">
+                <i class="fas fa-check-square mr-3 align-middle"></i>Our Covid-19 Response
             </div>
         </div>
     </div>
-    
 
-Landing Page Here
+    <div class="container p-0">
+        <a href="/covid" class="col-12 d-img">
+            <img src="/images/landing/covid.jpg" class="d-none d-lg-block w-100 img-fluid" />
+            <img src="/images/landing/covid-m.jpg" class="d-lg-none w-100 img-fluid" />
+
+        </a>
+    </div>
+
+    Landing Page Here
 
 </body>
 
