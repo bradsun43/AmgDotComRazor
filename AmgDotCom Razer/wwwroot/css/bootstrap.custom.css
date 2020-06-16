@@ -7819,6 +7819,9 @@ a.text-dark:hover, a.text-dark:focus {
 .form-control::after {
   display: none; }
 
+.cart-menu {
+  font-size: 20px; }
+
 div#dLabel .dropdown-menu {
   border: none; }
 
@@ -7873,8 +7876,19 @@ div#topNav a {
 
 div#middleNav .form-control {
   margin-right: 0 !important;
-  border: 2px solid #D83731;
-  cursor: pointer; }
+  cursor: pointer;
+  border-top-left-radius: 1.25rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom-left-radius: 1.25rem !important;
+  border-bottom-right-radius: 0rem !important; }
+
+div#middleNav .form-control-right {
+  margin-right: 0 !important;
+  cursor: pointer;
+  border-top-right-radius: 1.25rem !important;
+  border-top-left-radius: 0rem !important;
+  border-bottom-right-radius: 1.25rem !important;
+  border-bottom-left-radius: 0rem !important; }
 
 div#middleNav .form-inline {
   flex-flow: row !important; }

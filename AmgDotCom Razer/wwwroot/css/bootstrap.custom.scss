@@ -14,10 +14,11 @@ $dropdown-padding-y: .25rem !default;
 $dropdown-item-padding-y: .25rem !default;
 $dropdown-border-width: none !default;
 
+
+
 // Custom Breakpoints
 
 $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1900px );
-
 $container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1410px );
 
 
@@ -91,6 +92,9 @@ $container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1410p
 
 // NAV BAR CSS
 
+.cart-menu {
+    font-size: 20px
+}
 
 div#dLabel .dropdown-menu {
     border: none;
@@ -157,8 +161,20 @@ div#topNav a {
 
 div#middleNav .form-control {
     margin-right: 0 !important;
-    border: 2px solid $danger;
     cursor: pointer;
+    border-top-left-radius: 1.25rem !important;
+    border-top-right-radius: 0rem !important;
+    border-bottom-left-radius: 1.25rem !important;
+    border-bottom-right-radius: 0rem !important;
+}
+
+div#middleNav .form-control-right {
+    margin-right: 0 !important;
+    cursor: pointer;
+    border-top-right-radius: 1.25rem !important;
+    border-top-left-radius: 0rem !important;
+    border-bottom-right-radius: 1.25rem !important;
+    border-bottom-left-radius: 0rem !important;
 }
 
 div#middleNav .form-inline {
