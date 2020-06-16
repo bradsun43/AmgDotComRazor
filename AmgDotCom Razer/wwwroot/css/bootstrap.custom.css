@@ -7919,6 +7919,13 @@ body {
   font-weight: 300;
   line-height: 1.5; }
 
+div#landingInfo {
+  font-size: 1rem;
+  font-weight: 400; }
+
+div#landingInfo .fa-check-square {
+  color: #47a447; }
+
 div#productConfig .form-control {
   height: calc(1em + 1.50rem + 2px);
   padding: 0.50rem 0.75rem;

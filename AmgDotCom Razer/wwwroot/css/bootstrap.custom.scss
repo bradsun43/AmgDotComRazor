@@ -218,6 +218,17 @@ body {
     line-height: 1.5;
 }
 
+// LANDING
+
+div#landingInfo {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+div#landingInfo .fa-check-square {
+    color: $success;
+}
+
 // Product Info
 
 div#productConfig .form-control {
