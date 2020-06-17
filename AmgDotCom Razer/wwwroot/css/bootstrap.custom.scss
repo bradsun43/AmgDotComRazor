@@ -229,22 +229,13 @@ div#landingInfo .fa-check-square {
     color: $success;
 }
 
-.sl-item {
-    height: 500px;
-    background-image: url(/images/landing/sl3.jpg);
-    background-size: cover;
-}
 
-.lula-item {
-    height: 500px;
-    background-image: url(/images/landing/lula.jpg);
-    background-size: cover;
-}
-
-.vpl-item {
-    height: 500px;
-    background-image: url(/images/landing/vpl.jpg);
-    background-size: cover;
+div#gridLanding a {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 0px;
 }
 
 // Product Info

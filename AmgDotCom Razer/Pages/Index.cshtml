@@ -18,31 +18,6 @@
 
 <body>
 
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner" height="500px">
-            <a href="/horizon_stairlift" alt="Horizon Stair Lift" class="carousel-item active sl-item"></a>
-            <a href="#" alt="Horizon Stair Lift" class="carousel-item lula-item"></a>
-            <a href="#" alt="Horizon Stair Lift" class="carousel-item vpl-item"></a>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-
     <div class="container p-2">
         <div class="d-md-flex flex-row w-100 justify-content-center py-2 border-bottom" id="landingInfo">
             <div class="col-md-4 text-uppercase text-center">
@@ -57,15 +32,92 @@
         </div>
     </div>
 
-    <div class="container p-0">
-        <a href="/covid" class="col-12 d-img">
-            <img src="/images/landing/covid.jpg" class="d-none d-lg-block w-100 img-fluid" />
-            <img src="/images/landing/covid-m.jpg" class="d-lg-none w-100 img-fluid" />
+    <div id="demo" class="carousel slide mb-3" data-ride="carousel">
 
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="horizon_stairlift"><img src="/images/landing/sl3.jpg" alt="Los Angeles" class="img-fluid w-100" /></a>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/landing/lula.jpg" alt="Chicago" class="img-fluid w-100" />
+            </div>
+            <div class="carousel-item">
+                <img src="/images/landing/vpl.jpg" alt="New York" class="img-fluid w-100" />
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
         </a>
     </div>
 
-    Landing Page Here
+    <div class="container-fluid p-0 my-4">
+        <h1>
+            Most Searched Categories
+        </h1>
+        <div class="row">
+            <div class="col-lg w-100" id="gridLanding">
+                <a href="/horizon_stairlift" class="btn btn-block bg-primary py-3 mb-3 text-uppercase w-100 text-white">Stair Lifts</a>
+            </div>
+            <div class="col-lg w-100" id="gridLanding">
+                <a href="#" class="btn btn-block bg-primary py-3 mb-3 text-uppercase w-100 text-white">Platform Lifts</a>
+            </div>
+            <div class="col-lg w-100" id="gridLanding">
+                <a href="#" class="btn btn-block bg-primary py-3 mb-3 text-uppercase w-100 text-white">Elevators</a>
+            </div>
+            <div class="col-lg w-100" id="gridLanding">
+                <a href="#" class="btn btn-block bg-primary py-3 mb-3 text-uppercase w-100 text-white">Dumbwaiters</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container p-0">
+        <a href="/covid" class="col-12 p-0 m-0">
+            <img src="/images/landing/covid.jpg" class="d-none d-lg-block w-100 img-fluid" />
+            <img src="/images/landing/covid-m.jpg" class="d-lg-none w-100 img-fluid" />
+        </a>
+    </div>
+
+    <div class="container-fluid p-0 my-4">
+        <h1>
+            Popular Categories
+        </h1>
+        <div class="row">
+            <div class="col-lg w-100">
+                <a href="#">
+                    <img src="/images/landing/vpl-grey.png" class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg w-100">
+                <a href="/horizon_stairlift">
+                    <img src="/images/landing/sl-grey.png" class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg w-100">
+                <a href="#">
+                    <img src="/images/landing/ipl-grey.png" class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg w-100">
+                <a href="#">
+                    <img src="/images/landing/enclosed-grey.png" class="img-fluid" />
+                </a>
+            </div>
+        </div>
+    </div>
 
 </body>
 
