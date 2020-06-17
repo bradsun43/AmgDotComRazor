@@ -7927,11 +7927,11 @@ div#landingInfo .fa-check-square {
   color: #47a447; }
 
 div#gridLanding a {
-  color: #FFF;
   font-weight: 700;
   font-size: 1.25rem;
   text-decoration: none;
-  border-radius: 0px; }
+  border-radius: 0px;
+  border-width: 2px; }
 
 div#productConfig .form-control {
   height: calc(1em + 1.50rem + 2px);
