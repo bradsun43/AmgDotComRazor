@@ -1,6 +1,6 @@
 ﻿// Custom.scss
 $primary: #055097;
-$secondary: #F9F9F9;
+$secondary: #F5F5F5;
 $light: #F7F7F7;
 $success: #47a447;
 $warning: #FF951E;
@@ -49,15 +49,17 @@ $container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1410p
 }
 
 .panel-group .panel .panel-heading a {
-    background: #f8f8f8;
+    background: #FFF;
     display: block;
     padding: 15px;
     text-decoration: none;
     transition: 0.15s all ease-in-out;
+    border: 1px solid $primary;
 }
 
 .panel-group .panel .panel-heading h4 a:hover, .panel-group .panel .panel-heading h4 a:not(.collapsed) {
-    background: #fff;
+    background: #F5F5F5;
+    color: $primary;
     transition: 0.15s all ease-in-out;
 }
 
@@ -92,8 +94,10 @@ $container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1410p
 
 // NAV BAR CSS
 
-.cart-menu {
-    font-size: 20px
+div#middleNav .cart-menu {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 div#dLabel .dropdown-menu {
@@ -205,6 +209,11 @@ div#botNav .nav-link-off {
 
 div#botNav .dropdown-menu {
     z-index: 9999;
+}
+
+div#botNav button {
+    color: $primary;
+    font-size: 20px;
 }
 
 .logo-desktop {
@@ -343,12 +352,14 @@ div#accordionInfo h4 {
 
 footer#footer h6 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+    color: $primary;
+    font-weight: 700;
     font-size: 22px;
 }
 
 footer#footer p {
     font-family: 'Roboto', sans-serif;
+    color: $primary;
     font-weight: 300;
     font-size: 16px;
     margin-bottom: .5rem;
@@ -356,9 +367,9 @@ footer#footer p {
 
 footer#footer a {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    color: #FFFFFF !important;
+    font-weight: 400;
+    font-size: 14px;
+    color: $primary;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -366,6 +377,10 @@ footer#footer a {
 footer#footer .row {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+fdiv#signUp p {
+    color: #FFF;
 }
 
 // Bottom Fixed

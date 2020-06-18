@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-           <!-- NAV BAR -->
+        <!-- NAV BAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-0 d-flex flex-column" id="navBar">
 
 
@@ -63,14 +63,14 @@
 
 
             <!-- BOTTOM NAV -->
-            <div class="container w-100 d-flex flex-row justify-content-between d-none d-lg-block" id="botNav">
+            <div class="container d-none d-lg-flex justify-content-start" id="botNav">
                 <div class="dropdown show d-none d-lg-block">
                     <div class="container">
                         <div class="row">
                             <div class="dropdown">
-                                <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-danger py-4 rounded-0" data-target="#" href="/page.html">
+                                <button id="dLabel" role="button" data-toggle="dropdown" class="btn btn-danger py-4 rounded-0 text-white" data-target="#" href="/page.html">
                                     <i class="fas fa-bars mr-2"></i><span class="caret">ALL PRODUCTS </span>
-                                </a>
+                                </button>
                                 <ul class="dropdown-menu multi-level border" role="menu" aria-labelledby="dropdownMenu">
                                     <li class="dropdown-submenu">
                                         <a tabindex="-1" href="#" class="dropdown-item">Stair lifts</a>
@@ -79,14 +79,14 @@
                                             <li><a tabindex="-1" href="#" class="dropdown-item">Curved Stairlift</a></li>
                                             <li><a tabindex="-1" href="#" class="dropdown-item">Outdoor Stairlift</a></li>
                                             @*<li class="dropdown-submenu">
-                                                <a href="#">Even More..</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">3rd level</a></li>
-                                                    <li><a href="#">3rd level</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>*@
+                                        <a href="#">Even More..</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">3rd level</a></li>
+                                            <li><a href="#">3rd level</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Second level</a></li>
+                                    <li><a href="#">Second level</a></li>*@
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
@@ -96,14 +96,14 @@
                                             <li><a tabindex="-1" href="#" class="dropdown-item">Commercial</a></li>
                                             <li><a tabindex="-1" href="#" class="dropdown-item">Porch Lifts</a></li>
                                             @*<li class="dropdown-submenu">
-                                                <a href="#">Even More..</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">3rd level</a></li>
-                                                    <li><a href="#">3rd level</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Second level</a></li>
-                                            <li><a href="#">Second level</a></li>*@
+                                        <a href="#">Even More..</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">3rd level</a></li>
+                                            <li><a href="#">3rd level</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Second level</a></li>
+                                    <li><a href="#">Second level</a></li>*@
                                         </ul>
                                     </li>
                                 </ul>
@@ -111,8 +111,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="dropdown show d-none d-lg-block">
+                    <button class="btn dropdown-toggle py-4 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Stair Lifts <i class="fas fa-arrow-alt-square-down ml-2"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Straight Stair Lifts</a>
+                        <a class="dropdown-item" href="#">Curved Stair Lifts</a>
+                        <a class="dropdown-item" href="#">Outdoor Stair Lifts</a>
+                    </div>
+                </div>
             </div>
         </nav>
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -121,15 +132,46 @@
     </div>
 
     <!-- FOOTER SECTION -->
-    <footer id="footer" class="pb-5">
+    <footer id="footer">
 
-        <div class="bg-primary row text-md-left mt-3 pb-5 pt-2 px-3">
+        <!-- SIGN UP -->
+        <div class="bg-primary py-3 mt-3" id="signUp">
+            <div class="container px-0 d-md-flex justify-content-center">
+                <div class="col-md-3">
+                    <h5 class="text-white">STAY UP-TO-DATE</h5>
+                    <p>Never miss a deal. Sign up for our email newsletter ans start saving on your next purchase!</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-auto">
+                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Enter your email address">
+                    </div>
+                    
+                    <div class="col-auto">
+                        <button class="btn btn-lg btn-success" type="submit">SIGN UP</button>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <p>STAY CONNECTED</p>
+                    <div>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-youtube-square"></i>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bg-secondary row text-md-left pb-5 pt-2 px-3">
 
             <!-- Grid column 2 -->
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 pb-10">
-                <h6 class="text-white text-uppercase mb-3">PRODUCTS</h6>
-                <p class="text-white">
+                <h6 class="text-primary mb-3">PRODUCTS</h6>
+                <p>
                     <a href="/new-pp-template.html">stair lifts</a>
                 </p>
                 <p>
@@ -159,8 +201,8 @@
             <!-- Grid column 2 -->
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 pb-10">
-                <h6 class="text-white text-uppercase mb-3">SERVICES</h6>
-                <p class="text-white">
+                <h6 class="text-uppercase mb-3">SERVICES</h6>
+                <p>
                     <a href="/new-pp-template.html">about us</a>
                 </p>
                 <p>
@@ -183,8 +225,8 @@
             <!-- Grid column 3 -->
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-white text-uppercase mb-3">CONTACT</h6>
-                <p class="text-white">
+                <h6 class="text-uppercase mb-3">CONTACT</h6>
+                <p>
                     <a href="/new-pp-template.html">contact us</a>
                 </p>
                 <p>
@@ -200,6 +242,16 @@
                     <a href="/new-pp-template.html">privacy policy</a>
                 </p>
             </div>
+
+            <!-- Grid column 4 -->
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-3">CREDIT CARD AND FIDELITY PROGRAMS</h6>
+                
+            </div>
+        </div>
+        <div class="container py-4">
+            © AMERIGLIDE 2020, All Rights Reserved
         </div>
 
     </footer>
