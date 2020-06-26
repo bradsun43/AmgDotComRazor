@@ -49,12 +49,12 @@
                 </div>
 
                 <!-- MOBILE NAV -->
-                <button class="navbar-toggler border-0 py-3 bg-primary rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                @*<button class="navbar-toggler border-0 py-3 bg-primary rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="container d-flex align-items-center">
                         <span class="font-weight-bold mr-2 text-secondary"> MENU </span>
                         <span><i class="fas fa-bars" style="color:#F9F9F9; font-size:22px;"></i></span>
                     </div>
-                </button>
+                </button>*@
 
 
             </div>
@@ -63,64 +63,73 @@
 
 
             <!-- BOTTOM NAV -->
-            <div class="container d-none d-lg-flex justify-content-start" id="botNav">
-                <div class="dropdown show d-none d-lg-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="dropdown">
-                                <button id="dLabel" role="button" data-toggle="dropdown" class="btn btn-danger py-4 rounded-0 text-white" data-target="#" href="/page.html">
-                                    <i class="fas fa-bars mr-2"></i><span class="caret">ALL PRODUCTS </span>
-                                </button>
-                                <ul class="dropdown-menu multi-level border" role="menu" aria-labelledby="dropdownMenu">
-                                    <li class="dropdown-submenu">
-                                        <a tabindex="-1" href="#" class="dropdown-item">Stair lifts</a>
-                                        <ul class="dropdown-menu shadow-sm p-0 mb-5 bg-white rounded">
-                                            <li><a tabindex="-1" href="#" class="dropdown-item">Straight Stairlift</a></li>
-                                            <li><a tabindex="-1" href="#" class="dropdown-item">Curved Stairlift</a></li>
-                                            <li><a tabindex="-1" href="#" class="dropdown-item">Outdoor Stairlift</a></li>
-                                            @*<li class="dropdown-submenu">
-                                        <a href="#">Even More..</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">3rd level</a></li>
-                                            <li><a href="#">3rd level</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Second level</a></li>
-                                    <li><a href="#">Second level</a></li>*@
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a tabindex="-1" href="#" class="dropdown-item">Vertical Platform Lift</a>
-                                        <ul class="dropdown-menu shadow-sm p-0 mb-5 bg-white rounded">
-                                            <li><a tabindex="-1" href="#" class="dropdown-item">Residential</a></li>
-                                            <li><a tabindex="-1" href="#" class="dropdown-item">Commercial</a></li>
-                                            <li><a tabindex="-1" href="#" class="dropdown-item">Porch Lifts</a></li>
-                                            @*<li class="dropdown-submenu">
-                                        <a href="#">Even More..</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">3rd level</a></li>
-                                            <li><a href="#">3rd level</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Second level</a></li>
-                                    <li><a href="#">Second level</a></li>*@
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="dropdown show d-none d-lg-block">
-                    <button class="btn dropdown-toggle py-4 rounded-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Stair Lifts <i class="fas fa-arrow-alt-square-down ml-2"></i>
+            <div class="w-100 bg-danger d-none d-lg-flex justify-content-start" id="botNav">
+
+                <nav class="navbar navbar-expand-lg navbar-light py-0 w-100">
+                    <a href="#" class="navbar-brand font-weight-bold d-block d-lg-none">MegaMenu</a>
+                    <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Straight Stair Lifts</a>
-                        <a class="dropdown-item" href="#">Curved Stair Lifts</a>
-                        <a class="dropdown-item" href="#">Outdoor Stair Lifts</a>
+                    <div id="navbarContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <!-- Megamenu-->
+                            <li class="nav-item dropdown megamenu btn-danger">
+                                <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">All Products <i class="fas fa-caret-down"></i></a>
+                                <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                                    <div class="container px-0">
+                                        <div class="row bg-white rounded-0 m-0 shadow-sm w-100">
+                                            <div class="col-lg-7 col-xl-8">
+                                                <div class="p-4">
+                                                    <div class="row" id="megaContent">
+                                                        <div class="col-lg-6 mb-4">
+                                                            <h6 class="font-weight-bold text-uppercase">Stair Lifts</h6>
+                                                            <ul class="list-unstyled">
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Straight Stair lift</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Curved  Stair lift</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Outdoor Stair lift</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-6 mb-4">
+                                                            <h6 class="font-weight-bold text-uppercase">Vertical Platforms Lifts</h6>
+                                                            <ul class="list-unstyled">
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Unique Features</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Image Responsive</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Auto Carousel</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Newsletter Form</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-6 mb-4">
+                                                            <h6 class="font-weight-bold text-uppercase">Elevators</h6>
+                                                            <ul class="list-unstyled">
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">LULA</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Residential</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Commercial</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-6 mb-4">
+                                                            <h6 class="font-weight-bold text-uppercase">Dumbwaiters</h6>
+                                                            <ul class="list-unstyled">
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Commercial</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">residential</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="        background: center center url(https://www.ameriglide.com/cache/1589394253278/resources/product/1860/picture.jpg)no-repeat;
+        background-size: cover;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Stair Lifts</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Vertical Platforms Lifts</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Elevators</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Dumbwaiters</a></li>
+                        </ul>
                     </div>
-                </div>
+                </nav>
+
             </div>
         </nav>
 

@@ -7904,11 +7904,19 @@ div#navSearch {
 .solid-line {
   border-bottom: 1px solid #EEEEEE; }
 
+.megamenu {
+  position: static; }
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%; }
+
 div#botNav .nav-item {
   color: #FFFFFF; }
 
 div#botNav .nav-link-off {
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none; }
 
 div#botNav .dropdown-menu {
@@ -7916,7 +7924,16 @@ div#botNav .dropdown-menu {
 
 div#botNav button {
   color: #055097;
-  font-size: 20px; }
+  font-size: 16px; }
+
+div#navbarContent a {
+  color: #FFF; }
+
+div#megaHover :hover {
+  background-color: #a3001d; }
+
+div#dropdownMenuButton fa-chevron-down {
+  font-size: 12px; }
 
 .logo-desktop {
   display: none; }

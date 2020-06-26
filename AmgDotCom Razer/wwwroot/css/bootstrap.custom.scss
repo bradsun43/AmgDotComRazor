@@ -94,6 +94,8 @@ $container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1410p
 
 // NAV BAR CSS
 
+
+
 div#middleNav .cart-menu {
     font-size: 20px;
     font-weight: 500;
@@ -198,12 +200,22 @@ div#navSearch {
     border-bottom: 1px solid #EEEEEE;
 }
 
+.megamenu {
+    position: static;
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
 div#botNav .nav-item {
     color: #FFFFFF;
 }
 
 div#botNav .nav-link-off {
-    color: #FFFFFF;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -213,7 +225,21 @@ div#botNav .dropdown-menu {
 
 div#botNav button {
     color: $primary;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+div#navbarContent a {
+    color: #FFF;
+}
+
+
+div#megaHover :hover {
+    background-color: #a3001d; 
+}
+
+
+div#dropdownMenuButton fa-chevron-down {
+    font-size: 12px;
 }
 
 .logo-desktop {
