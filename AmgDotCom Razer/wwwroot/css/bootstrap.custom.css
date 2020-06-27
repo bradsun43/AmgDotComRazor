@@ -7958,6 +7958,9 @@ div#gridLanding a {
   border-radius: 0px;
   border-width: 2px; }
 
+div#values {
+  background: linear-gradient(90deg, #004876, #176ea6, #0082c3, #176ea6, #004876); }
+
 div#productConfig .form-control {
   height: calc(1em + 1.50rem + 2px);
   padding: 0.50rem 0.75rem;
