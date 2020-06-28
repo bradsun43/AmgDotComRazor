@@ -74,7 +74,7 @@
                         <ul class="navbar-nav mx-auto">
                             <!-- Megamenu-->
                             <li class="nav-item dropdown megamenu btn-danger">
-                                <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">All Products <i class="fas fa-caret-down"></i></a>
+                                <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase px-md-4">All Products <i class="fas fa-caret-down"></i></a>
                                 <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
                                     <div class="w-100 px-0">
                                         <div class="row bg-white rounded-0 m-0 shadow-sm w-100">
@@ -92,10 +92,10 @@
                                                         <div class="col-lg-3 mb-4">
                                                             <h6 class="font-weight-bold text-uppercase">Vertical Platforms Lifts</h6>
                                                             <ul class="list-unstyled">
-                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Unique Features</a></li>
-                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Image Responsive</a></li>
-                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Auto Carousel</a></li>
-                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Newsletter Form</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Residential</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Commercial</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Porch Lifts</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Wheelchair Lifts</a></li>
                                                             </ul>
                                                         </div>
                                                         <div class="col-lg-3 mb-4">
@@ -109,15 +109,15 @@
                                                         <div class="col-lg-3 mb-4">
                                                             <h6 class="font-weight-bold text-uppercase">Dumbwaiters</h6>
                                                             <ul class="list-unstyled">
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Residential</a></li>
                                                                 <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Commercial</a></li>
-                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">residential</a></li>
                                                             </ul>
                                                         </div>
                                                         <div class="col-lg-3 mb-4">
                                                             <h6 class="font-weight-bold text-uppercase">Inclined Platform Lifts</h6>
                                                             <ul class="list-unstyled">
+                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Residential</a></li>
                                                                 <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">Commercial</a></li>
-                                                                <li class="nav-item"><a href="" class="nav-link text-small text-dark pb-0 pl-0">residential</a></li>
                                                             </ul>
                                                         </div>
                                                         <div class="col-lg-3 mb-4">
@@ -149,10 +149,13 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger">Stair Lifts</a></li>
-                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger">Vertical Platforms Lifts</a></li>
-                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger">Elevators</a></li>
-                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger">Dumbwaiters</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">Stair Lifts</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">Vertical Platforms Lifts</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">Elevators</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">Dumbwaiters</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">COVID-19</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">FAQ</a></li>
+                            <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase btn-danger px-md-4">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -161,8 +164,8 @@
         </nav>
 
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container position-relative">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
@@ -175,7 +178,7 @@
             <div class="container px-0 d-md-flex justify-content-center">
                 <div class="col-md-3">
                     <h5 class="text-white">STAY UP-TO-DATE</h5>
-                    <p>Never miss a deal. Sign up for our email newsletter ans start saving on your next purchase!</p>
+                    <p class="text-white">Never miss a deal. Sign up for our email newsletter ans start saving on your next purchase!</p>
                 </div>
                 <div class="col-md-6">
                     <div class="col-auto">
@@ -201,91 +204,105 @@
             
         </div>
 
-        <div class="bg-secondary row text-md-left pb-5 pt-2 px-3">
+        <div class="row d-md-flex justify-content-center bg-secondary">
 
-            <!-- Grid column 2 -->
+            <div class="container row text-md-left">
 
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 pb-10">
-                <h6 class="text-primary mb-3">PRODUCTS</h6>
-                <p>
-                    <a href="/new-pp-template.html">stair lifts</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">vertical platform lifts</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">elevators</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">wheelchair vehicles</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">bath lifts</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">dumbwaiters</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">inclined platforms</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">mobility scooters</a>
-                </p>
+                <!-- Grid column 2 -->
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mt-3 pb-10 px-0">
+                    <h6 class="text-primary mb-3">PRODUCTS</h6>
+                    <p>
+                        <a href="/new-pp-template.html">stair lifts</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">vertical platform lifts</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">elevators</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">wheelchair vehicles</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">bath lifts</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">dumbwaiters</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">inclined platforms</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">mobility scooters</a>
+                    </p>
+                </div>
+
+
+                <!-- Grid column 2 -->
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mt-3 pb-10">
+                    <h6 class="text-uppercase mb-3">SERVICES</h6>
+                    <p>
+                        <a href="/new-pp-template.html">about us</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">testimonials</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">FAQs</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">return policy</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">delivery</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">terms and conditions</a>
+                    </p>
+                </div>
+
+                <!-- Grid column 3 -->
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mt-3 pb-10">
+                    <h6 class="text-uppercase mb-3">CONTACT</h6>
+                    <p>
+                        <a href="/new-pp-template.html">contact us</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">ag store locator</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">authorized ameriglide contractors</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">pay by check</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">privacy policy</a>
+                    </p>
+                </div>
+
+                <!-- Grid column 4 -->
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mt-3 pb-10">
+                    <h6 class="text-uppercase mb-3">Useful information</h6>
+                    <p>
+                        <a href="/new-pp-template.html">Site map</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">Covid-19</a>
+                    </p>
+                    <p>
+                        <a href="/new-pp-template.html">BREAD Financing</a>
+                    </p>
+                </div>
             </div>
 
-
-            <!-- Grid column 2 -->
-
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 pb-10">
-                <h6 class="text-uppercase mb-3">SERVICES</h6>
-                <p>
-                    <a href="/new-pp-template.html">about us</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">testimonials</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">FAQs</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">return policy</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">delivery</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">terms and conditions</a>
-                </p>
-            </div>
-
-            <!-- Grid column 3 -->
-
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-3">CONTACT</h6>
-                <p>
-                    <a href="/new-pp-template.html">contact us</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">ag store locator</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">authorized ameriglide contractors</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">pay by check</a>
-                </p>
-                <p>
-                    <a href="/new-pp-template.html">privacy policy</a>
-                </p>
-            </div>
-
-            <!-- Grid column 4 -->
-
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-3">CREDIT CARD AND FIDELITY PROGRAMS</h6>
-                
-            </div>
         </div>
+
+        
         <div class="container py-4">
             © AMERIGLIDE 2020, All Rights Reserved
         </div>

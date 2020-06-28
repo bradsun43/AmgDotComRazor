@@ -7913,7 +7913,8 @@ div#navSearch {
   width: 100%; }
 
 div#botNav .nav-item {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 14px; }
 
 div#botNav .nav-link-off {
   color: #FFF;
@@ -7931,6 +7932,9 @@ div#navbarContent a {
 
 div#megaHover :hover {
   background-color: #a3001d; }
+
+div#megaContent .nav-item:hover {
+  color: #055097; }
 
 div#dropdownMenuButton fa-chevron-down {
   font-size: 12px; }
@@ -7959,7 +7963,14 @@ div#gridLanding a {
   border-width: 2px; }
 
 div#values {
-  background: linear-gradient(90deg, #004876, #176ea6, #0082c3, #176ea6, #004876); }
+  background: linear-gradient(90deg, #004876, #176ea6, #0082c3, #176ea6, #004876);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center; }
+
+div#values a {
+  color: #FFF;
+  text-decoration: none; }
 
 div#productConfig .form-control {
   height: calc(1em + 1.50rem + 2px);
