@@ -396,14 +396,14 @@ footer#footer h6 {
     font-family: 'Oswald', sans-serif;
     color: $primary;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 footer#footer p {
     font-family: 'Roboto', sans-serif;
     color: $primary;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: .5rem;
 }
 
@@ -423,6 +423,22 @@ footer#footer .row {
 
 fdiv#signUp p {
     color: #FFF;
+}
+
+div#footerIcons {
+    font-size: 34px;
+    color: $primary;
+}
+
+div#footerImages img {
+    max-height: 30px;
+}
+
+div#footerText h5 {
+    font-weight: 300;
+    color: #707070;
+    margin: 0px;
+    text-transform: capitalize;
 }
 
 // Bottom Fixed
