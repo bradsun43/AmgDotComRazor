@@ -7818,6 +7818,13 @@ a.text-dark:hover, a.text-dark:focus {
 .dropdown-toggle::after {
   display: none; }
 
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none; }
+
 .form-control::after {
   display: none; }
 
