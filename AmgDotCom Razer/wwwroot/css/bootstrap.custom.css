@@ -7904,6 +7904,18 @@ div#middleNav .form-control-right {
 div#middleNav .form-inline {
   flex-flow: row !important; }
 
+div#middleNav .vert-line:before {
+  background-color: #ccc;
+  border-radius: 0;
+  content: "";
+  height: 13px;
+  width: 1px;
+  top: 50%;
+  left: -2px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 div#navSearch {
   width: 100%;
   max-width: 500px; }

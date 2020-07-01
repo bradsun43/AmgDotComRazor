@@ -103,8 +103,6 @@ $container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1410p
 
 // NAV BAR CSS
 
-
-
 div#middleNav .cart-menu {
     font-size: 20px;
     font-weight: 500;
@@ -194,6 +192,19 @@ div#middleNav .form-control-right {
 
 div#middleNav .form-inline {
     flex-flow: row !important;
+}
+
+div#middleNav .vert-line:before {
+    background-color: #ccc;
+    border-radius: 0;
+    content: "";
+    height: 13px;
+    width: 1px;
+    top: 50%;
+    left: -2px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .right-column {
