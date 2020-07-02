@@ -7925,6 +7925,10 @@ div#middleNav .vert-line:before {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+.phone-menu {
+  font-size: 22px;
+  font-weight: 500; }
+
 div#navSearch {
   width: 100%;
   max-width: 500px; }
