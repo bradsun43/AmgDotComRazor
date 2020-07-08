@@ -335,6 +335,27 @@ div#shopBubble p {
     font-size: 18px;
 }
 
+// Collection
+
+div#collectionItem h4 {
+    color: #666666;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+div#collectionItem a:hover {
+    color: #418CE9;
+}
+
+div#collectionItem p {
+    color: #666666;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
 // Product Info
 
 div#productConfig .form-control {
