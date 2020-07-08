@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AmgDotCom_Razer.Pages
 {
-    public class product_filtersModel : PageModel
+    public class Product_filtersModel : PageModel
     {
+
         public void OnGet()
         {
+
         }
     }
 }
